@@ -164,3 +164,14 @@ footer{
 .boxed-content.left-boxed-icon .boxed-content-title, .boxed-content.left-boxed-icon p {
     padding-left: 80px;
 }
+
+@media only screen and (max-width: 500px){
+	.showcase h1{
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-size: 2.8em;
+	color: #fff;
+	}
+	.showcase p.lead{
+		font-size: 1.5em;
+	}
+}
